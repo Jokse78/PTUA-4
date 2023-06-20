@@ -3,7 +3,7 @@ services:
   web:
     image: tautiz/web4study:latest
     volumes:
-      - ./projekto_failai:/var/www/html/
+      - ./mano_failai:/var/www/html/
     user: web:web
     ports:
       - "80:80"
