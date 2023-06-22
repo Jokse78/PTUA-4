@@ -1,0 +1,5 @@
+#a {background-color:green; color: white;}
+a {background-color:green; color: rgb(255, 255, 255); text-decoration: none; text-transform:uppercase; }
+.gallery img {border: 1px solid red;}
+header {background-color:transparent;}
+footer {border: 1px solid green;}
