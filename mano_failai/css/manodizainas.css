@@ -1,5 +1,20 @@
-#a {background-color:green; color: white;}
+#a {background-color:light grey; color: white;}
 a {background-color:green; color: rgb(255, 255, 255); text-decoration: none; text-transform:uppercase; }
 .gallery img {border: 1px solid red;}
-header {background-color:transparent;}
-footer {border: 1px solid green;}
+aside {width: 20%;}
+main {background-color:yellow; width: 100%; float: right; font-size: 14px;left:1;}
+footer {background-color:grey; width: 60%; float: left; font-size: 14px;}
+header {background-color:purple; style: display:flex; width: 100%; float: left; font-size: 14px; body style=height: 100%; overflow: hidden; margin:0px; embed name=0947F8991E2F9531AA9445A1A4BD393F; style=position:absolute; left: 0; top: 0; margin: 20 px; padding:20px;}
+html, body {margin:0;padding:0;height:100%;}
+body{display:grid;align_content: space-between;}
+main {display:flex;}
+main > aside, main > div {float: left;}
+body>header {height:75px;}
+body>header>*{float:left;}
+body>header>nav{float:right;}
+main>div{height:100%; display:flex; justify-content:center;align-items:center;width:80%;}
+
+
+
+
+
