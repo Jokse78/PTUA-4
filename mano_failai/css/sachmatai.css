@@ -1,0 +1,41 @@
+html, body, section {
+  height: 100%;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sachmatai {
+  width:550px;
+}
+.sachmatai > div {
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+    padding: 10px;
+    float: left;
+    border: 1px solid darkgrey;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: lightgrey;
+}
+/*
+.sachmatai > div:nth-child(5n+1){
+  clear: left;
+}
+*/
+.sachmatai > div:nth-child(4n+2){
+  background-color: lightblue;
+}
+
+
+div > div:nth-child(4n+4){
+  background-color: lightgreen;
+}
+
+.sachmatai > div:nth-child(2n+16){
+ background-color: lightpink;
+}
