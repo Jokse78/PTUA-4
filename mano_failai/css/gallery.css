@@ -1,0 +1,20 @@
+.galery {
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-gap: 10px;
+border: 1px solid red;
+grid-template-rows: 150px 150px 150px;
+}
+body {
+grid-template-areas:
+"h h"
+"m m"
+"ft ft";
+}
+.gallery>div{
+overflow:hidden;
+}
+.gallery>div>img{
+max-width:80%;
+max-height:80%;
+}
