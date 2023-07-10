@@ -1,7 +1,27 @@
-const manoVardas = "Oksana Jakubauske";
+const ManoVardas = "Oksana Jakubauske";
 
-// Pasirinkti elementa
-const manoVardasDOM = document.getElementById("manoVardas");
+const ManoVardasDOM = document.getElementById("ManoVardas");
 
-// Pakeisti elemento turini
-manoVardasDOM.innerHTML = manoVardas;
+ManoVardasDOM.innerHTML = ManoVardas;
+
+
+
+const Titulinis = "Titulinis puslapis";
+
+const TitulinisDOM = document.querySelector(".Titulinis");   ".class"
+
+TitulinisDOM.innerHTML = "Titulinis puslapis";
+
+
+
+
+const Puslapiukas = "NAUJAS";
+
+const PuslapiukasDOM = document.querySelector("#Puslapiukas");  "#id"
+
+PuslapiukasDOM.innerHTML = "NAUJAS";
+
+
+
+
+
