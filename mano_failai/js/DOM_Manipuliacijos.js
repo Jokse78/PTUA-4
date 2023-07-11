@@ -6,28 +6,40 @@ ManoVardasDOM.innerHTML = ManoVardas;
 
 
 
-const Titulinis = "Titulinis puslapis";
+//const Titulinis = "Titulinis puslapis";
 
-const TitulinisDOM = document.querySelector(".Titulinis");
+//const TitulinisDOM = document.querySelector(".Titulinis");
 
-TitulinisDOM.innerHTML = "Titulinis puslapis";
-
-
-const Puslapiukas = "NAUJAS";
-
-const PuslapiukasDOM = document.querySelector("#Puslapiukas");
-
-PuslapiukasDOM.innerHTML = "NAUJAS";
+//TitulinisDOM.innerHTML = Titulinis;
 
 
-imgTagai = document.getElementsByTagName('img');
-let imgTaguSkaicius = imgTagai.length;
-// Rezultato išvedimas konsolėje
-console.log("HTML faile yra " + imgTaguSkaicius + " <img> tagai.");
-// Suskaičiuoti <img> taguslet
-let elementas = document.getElementById('uuid');
-elementas.textContent = "Šiame faile yra " + imgTaguSkaicius + " <img> tagai.";
+//const Puslapiukas = "NAUJAS";
 
-// Atspausdinti rezultatą konsolėje
-console.log(elementas.textContent);
+//const PuslapiukasDOM = document.querySelector("#Puslapiukas");
 
+//PuslapiukasDOM.innerHTML = Puslapiukas;
+
+//1.
+const images = document.getElementsByTagName('img');
+const imgKiekis = images.lenght;
+console.log("HTML faile yra " + imgKiekis + " <img> tagai.");
+// 2.
+const elementas = document.getElementById('uuid');
+const atsakymas = 'Siame puslapyje yra $ {imgKiekis} paveiksleliai';
+elementas.innerHTML = atsakymas;
+//3.
+const mygtukoElementas = document.querySelector('button');
+mygtukoElementas.addEventListener('click', function() {
+  window.alert("Paveikslėlių kiekis: " + imgTaguSkaicius);
+});
+//4.
+for(let i=0; i< imgKiekis; i+=2) {
+let paveikslelis = images[i];
+//paveikslelis.setAlttribute('alt', 'Testas');
+paveikslelis.alt = 'Testas'
+}
+//5.
+elementas.style.fontSize = '24px';
+elementas.style.backgroundColor = 'green';
+elementas.style.width = '200px';
+elementas.style.height = '200px';
