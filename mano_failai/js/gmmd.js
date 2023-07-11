@@ -113,14 +113,16 @@ let studentas6={vardas:'Gytaute', pavarde:'Barzdziute', pazymiai:[10,9,10]};
 let sarasas=[studentas1,studentas2,studentas3,studentas4,studentas5, studentas6];
 console.log(sarasas[5]);
 console.log(sarasas[5].vardas+' '+ sarasas[5].pavarde+' '+"mokosi KTU, 4 kurse, jos pazymiai"+' '+sarasas[5].pazymiai);
-//for pazymiai in studentai
-//{console.log(pazymiai)};
-//function pazymiai(studentai) {
-//            for (let i = 0; i < studentai.length; i++) {
-//                console.log("studentas " + (i + 1) + " pazymiai:", studentai[i].pazymiai);
-//            }
-//        }
-//        Pazymiai(sarasas);
+console.log(sarasas[5].pazymiai);
+for (int i = 0; i < pazymiai.length; i++) {
+    pazymys = pažymiai[i];
+    console.log(pazymys) // Čia pakeiskite "išvesk" su tinkamu metodu, kad išvestų pažymį
+}
+function kaDaryti(){
+    alert(Aciu, kad paspaudete mane!)}
+    document.body.addEventListener("click", kaDaryti);
+    //2 variantas
+    document.body.addEventListener("click",()=>alert(Aciu, kad paspaudete mane!));
 
 
 let atsitiktinisSkaicius=Math.random();
@@ -150,3 +152,5 @@ i+=4;
 for (let i=0; i<=16; i+=4) {
 console.log(i);
 }
+
+
